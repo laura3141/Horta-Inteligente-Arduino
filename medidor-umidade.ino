@@ -31,7 +31,7 @@ void loop()
         if(umidade>200&&c==0){
         lcd_1.clear();
         digitalWrite(13,LOW);
-        lcd_1.print("SEM SEDE :)");
+        lcd_1.print("SEM SEDE s:)");
         c=1;
         }
         
